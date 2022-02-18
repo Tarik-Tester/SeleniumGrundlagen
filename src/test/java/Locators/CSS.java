@@ -21,8 +21,8 @@ public class CSS {
         //     tagName[attribute='value'] /// tagName#ID or #ID  /// tagName.className or .className
 
         //driver.findElement(By.cssSelector("input[name='email']")).sendKeys("Tarik");
-        //driver.findElement(By.cssSelector("input#email")).sendKeys("Tarik");
-        driver.findElement(By.cssSelector("input.inputtext")).sendKeys("Tarik");
+        driver.findElement(By.cssSelector("input#email")).sendKeys("Tarik");
+        //driver.findElement(By.cssSelector("input.inputtext")).sendKeys("Tarik");
 
     }
 }
